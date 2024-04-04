@@ -90,80 +90,80 @@ export default function Footer() {
                     className="grid grid-cols-1 gap-8 border-t border-gray-100 pt-8 sm:grid-cols-2 lg:grid-cols-4 lg:pt-16"
                 >
                     <div>
-                        <p className="font-medium text-gray-600">Home</p>
+                        <p className="font-medium text-white">Home</p>
 
                         <ul className="mt-6 space-y-4 text-sm">
                             <li>
-                                <a href="#" className="text-white transition hover:opacity-75"> Categories </a>
+                                <a href="#" className="text-primary transition hover:opacity-75"> Categories </a>
                             </li>
 
                             <li>
-                                <a href="#" className="text-white transition hover:opacity-75"> Device </a>
+                                <a href="#" className="text-primary transition hover:opacity-75"> Device </a>
                             </li>
 
                             <li>
-                                <a href="#" className="text-white transition hover:opacity-75"> Devices </a>
+                                <a href="#" className="text-primary transition hover:opacity-75"> Devices </a>
                             </li>
 
                             <li>
-                                <a href="#" className="text-white transition hover:opacity-75"> Pricing </a>
+                                <a href="#" className="text-primary transition hover:opacity-75"> Pricing </a>
                             </li>
 
                             <li>
-                                <a href="#" className="text-white transition hover:opacity-75"> FAQ </a>
+                                <a href="#" className="text-primary transition hover:opacity-75"> FAQ </a>
                             </li>
                         </ul>
                     </div>
 
                     <div>
-                        <p className="font-medium text-gray-600">Movies</p>
+                        <p className="font-medium text-white">Movies</p>
 
                         <ul className="mt-6 space-y-4 text-sm">
                             <li>
-                                <a href="#" className="text-white transition hover:opacity-75"> Gernes </a>
+                                <a href="#" className="text-primary transition hover:opacity-75"> Gernes </a>
                             </li>
 
                             <li>
-                                <a href="#" className="text-white transition hover:opacity-75"> Trending </a>
+                                <a href="#" className="text-primary transition hover:opacity-75"> Trending </a>
                             </li>
 
                             <li>
-                                <a href="#" className="text-white transition hover:opacity-75"> New Release </a>
+                                <a href="#" className="text-primary transition hover:opacity-75"> New Release </a>
                             </li>
                             <li>
-                                <a href="#" className="text-white transition hover:opacity-75"> Popular </a>
+                                <a href="#" className="text-primary transition hover:opacity-75"> Popular </a>
                             </li>
                         </ul>
                     </div>
 
                     <div>
-                        <p className="font-medium text-gray-600"> Shows </p>
+                        <p className="font-medium text-white"> Shows </p>
 
                         <ul className="mt-6 space-y-4 text-sm">
                             <li>
-                                <a href="#" className="text-white transition hover:opacity-75"> Gernes </a>
+                                <a href="#" className="text-primary transition hover:opacity-75"> Gernes </a>
                             </li>
 
                             <li>
-                                <a href="#" className="text-white transition hover:opacity-75"> Trending </a>
+                                <a href="#" className="text-primary transition hover:opacity-75"> Trending </a>
                             </li>
 
                             <li>
-                                <a href="#" className="text-white transition hover:opacity-75"> New Release </a>
+                                <a href="#" className="text-primary transition hover:opacity-75"> New Release </a>
                             </li>
 
                             <li>
-                                <a href="#" className="text-white transition hover:opacity-75"> Popular </a>
+                                <a href="#" className="text-primary transition hover:opacity-75"> Popular </a>
                             </li>
                         </ul>
                     </div>
 
                     <div>
-                        <p className="font-medium text-gray-600"> Support </p>
+                        <p className="font-medium text-white"> Support </p>
 
                         <ul className="mt-6 space-y-4 text-sm">
                             <li>
-                                <a href="#" className="text-white transition hover:opacity-75"> Contact US </a>
+                                <a href="#" className="text-primary transition hover:opacity-75"> Contact US </a>
                             </li>
 
                         </ul>
@@ -172,15 +172,15 @@ export default function Footer() {
 
 
                 <div>
-                    <p className="font-medium text-gray-600"> Subscription </p>
+                    <p className="font-medium text-white"> Subscription </p>
 
                     <ul className="mt-6 space-y-4 text-sm">
                         <li>
-                            <a href="#" className="text-white transition hover:opacity-75"> Plans </a>
+                            <a href="#" className="text-primary transition hover:opacity-75"> Plans </a>
                         </li>
 
                         <li>
-                            <a href="#" className="text-white transition hover:opacity-75"> Features </a>
+                            <a href="#" className="text-primary transition hover:opacity-75"> Features </a>
                         </li>
                     </ul>
                 </div>

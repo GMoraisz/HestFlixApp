@@ -1,6 +1,7 @@
 import Image from "next/image";
 import NavBar from "./components/navBar";
 import Footer from "./components/footer";
+import MSlides from "./components/mSlides";
 
 
 
@@ -13,7 +14,7 @@ export default function Home() {
 
       </nav>
       <main>
-
+          <MSlides/>
       </main>
 
       <footer>

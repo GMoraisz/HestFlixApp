@@ -5,7 +5,7 @@ export default function NavBar() {
     return (
 
 
-        <header className="header sticky top-0 bg-black shadow-md flex items-center justify-between px-8 py-02">
+        <header className="sticky top-0 shadow-md flex items-center justify-between px-8 py-02 text-gray-50">
 
             <h1 className="w-3/12">
                 <a href="">
@@ -20,19 +20,19 @@ export default function NavBar() {
 
 
 
-            <div className="bg-gray-950 rounded-lg border border-gray-600 ">
-                <nav className="font-normal text-lg">
+            <div className="bg-button rounded-lg border-4 border-primary">
+                <nav className="font-normal text-base">
                     <ul className="flex items-center">
-                        <li className="p-5 border-b-2 border-red-700 border-opacity-0 hover:border-opacity-100 hover:text-red-700 duration-200 cursor-pointer active">
+                        <li className="p-5 border-b-2 border-secundary border-opacity-0 hover:border-opacity-100 hover:text-secondary duration-200 cursor-pointer active">
                             <a href="">Home</a>
                         </li>
-                        <li className="p-5 border-b-2 border-red-700 border-opacity-0 hover:border-opacity-100 hover:text-red-700 duration-200 cursor-pointer">
+                        <li className="p-5 border-b-2 border-secondary border-opacity-0 hover:border-opacity-100 hover:text-secondary duration-200 cursor-pointer">
                             <a href="">Movies & Shows</a>
                         </li>
-                        <li className="p-5 border-b-2 border-red-700 border-opacity-0 hover:border-opacity-100 hover:text-red-700 duration-200 cursor-pointer">
+                        <li className="p-5 border-b-2 border-secondary border-opacity-0 hover:border-opacity-100 hover:text-secondary duration-200 cursor-pointer">
                             <a href="">Support</a>
                         </li>
-                        <li className="p-5 border-b-2 border-red-700 border-opacity-0 hover:border-opacity-100 hover:text-red-700 duration-200 cursor-pointer">
+                        <li className="p-5 border-b-2 border-secondary border-opacity-0 hover:border-opacity-100 hover:text-secondary duration-200 cursor-pointer">
                             <a href="">Subscriptions</a>
                         </li>
                     </ul>
@@ -45,7 +45,7 @@ export default function NavBar() {
 
             <div className="w-3/12 flex justify-end gap-4">
                 <a href="">
-                    <svg className="h-8 p-1 hover:text-red-700 duration-200 svg-inline--fa fa-search fa-w-16 fa-9x"
+                    <svg className="h-8 p-1 hover:text-secondary duration-200 svg-inline--fa fa-search fa-w-16 fa-9x"
                         aria-hidden="true"
                         focusable="false"
                         data-prefix="far" data-icon="search"
@@ -58,7 +58,7 @@ export default function NavBar() {
                 </a>
                 <a href="">
                     <FaRegBell
-                        className="w-full h-full p-1 mr-1 hover:text-red-700 duration-200"
+                        className="w-full h-full p-1 mr-1 hover:text-secondary duration-200"
                         aria-hidden="true"
                         focusable="false"
                         viewBox="0 0 448 512"
